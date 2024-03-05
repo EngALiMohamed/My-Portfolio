@@ -5,11 +5,19 @@ import  Image3  from '../images/Image Editor.png'
 import  Image4  from '../images/Bootstrap_design.png'
 import  Image5  from '../images/Design for a company.png'
 import  Image6  from '../images/Design for Apple.png'
+import  Image7  from '../images/Todo List.png'
 import { Container , Row ,Col,Nav ,Tab} from 'react-bootstrap'
 import ProjectCard from './ProjectCard'
 
 export default function Projects() {
     const projects =[
+        {
+            title :"Todo List",
+            description:"Todo List For Complete Today's Tasks",
+            imageUrl: Image7,
+            href: "https://todo-list-three-kohl.vercel.app/"
+
+        },
         {
             title :"E-Commerce",
             description:"An e-commerce website to display products",

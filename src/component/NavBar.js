@@ -3,10 +3,12 @@ import navIcon1 from '../images/nav-icon1.svg';
 import navIcon2 from '../images/nav-icon2.svg';
 import navIcon3 from '../images/nav-icon3.svg';
 import { HashLink } from 'react-router-hash-link';
+import { NavLink,Link } from 'react-router-dom';
 import {
   BrowserRouter as Router
 } from "react-router-dom";
 import headerImage from"../images/headerImage.png"
+
 function NavBar() {
 
   return (

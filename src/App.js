@@ -5,6 +5,8 @@ import Skills from "./component/Skills";
 import Projects from "./component/Projects";
 import Contact from "./component/Contact";
 import Footer from "./component/Footer";
+import { BrowserRouter, Routes } from "react-router-dom";
+import { Route } from "react-router-dom";
 
 function App() {
   return (
@@ -15,7 +17,7 @@ function App() {
         <Skills />
           <Projects/>
         <Contact/>
-        <Footer/> 
+        <Footer/>
       </div>
 
   );
